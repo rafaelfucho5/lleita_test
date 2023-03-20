@@ -64,3 +64,26 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Run Project
+
+php artisan serve 
+
+## EndPoins
+
+show the log in test
+http://127.0.0.1:8000/  
+
+Validate if number is correct, international or national
+http://127.0.0.1:8000/phone/{phoneNumber}
+
+send sms by Leita Api
+http://127.0.0.1:8000/sms-form
+
+## Nota
+
+In .env file add 
+LLEITA_USER="xxxx@xxxx"
+LLEITA_PASS="xxxx"
+
+change user and passwork for a valid
